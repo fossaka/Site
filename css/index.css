@@ -1,0 +1,45 @@
+
+.topo-fixo {
+    position: fixed;
+    top: 0px;
+    padding: 2em;
+    margin: auto;
+    width: 100%;
+    height: 5%;
+    background-color: cadetblue
+}
+.topo-fixo li{
+    display: inline-block;
+}
+#busca-topo{
+    width: 23em;
+    height: 1.5em;
+    border-radius: 10px;
+    margin-left: 10em;
+}
+
+.pagina {
+    margin: 1e;
+    padding: 3em;
+    padding-top: 7em;
+    float: left;
+}
+
+.menu-fixo {
+    background-color:beige;
+    width: 10%;
+    height: 100%;
+    float: left;
+    margin-top: 6em;
+    padding: 2.5em;
+}
+
+#submit-topo {
+    border-radius: 10% 50%/50% 10%
+}
+
+.iniciar-sesao {
+    float: right;
+    padding: 1em;
+    margin-right: 10em;
+}
