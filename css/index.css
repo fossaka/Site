@@ -1,22 +1,70 @@
-
 .topo-fixo {
     position: fixed;
     top: 0px;
-    padding: 2em;
     margin: auto;
     width: 100%;
-    height: 5%;
-    background-color: cadetblue
+    height: 3em;
+    background-color: cadetblue;
 }
 .topo-fixo li{
-    display: inline-block;
+    display: inline-block;'
 }
 #busca-topo{
-    width: 23em;
-    height: 1.5em;
+    width: 50vw;
+    height: 2em;
     border-radius: 10px;
-    margin-left: 10em;
+    padding: .3em;
+    margin: .4vh;
 }
+#submit-topo {
+    border-radius: 4px;
+    width: 3vw 3vmin ;
+    height: 4.5vh;
+}
+.iniciar-sesao {
+    float: right;
+    padding: 1em;
+    margin-right: 10em;
+}
+.iniciar-sesao a{
+    color: whitesmoke;
+    text-decoration: inherit;
+}
+
+.menu-lateral {
+    background-color:beige;
+    width: 10vw;
+    height: 100vw;
+    float: left;
+    margin: auto;
+    margin-top: 3em;
+    padding: 2.5vw;
+    padding-bottom: 100%;
+}
+.img-menu-lateral {
+    margin-top: 3vh;
+    padding: 5vw;
+    margin: auto;
+    border-radius: 50%;
+    background-color: dimgrey;
+    text-align: center;
+}
+.menu-lateral li{
+    margin: auto;
+    padding: 2vw 1vmin;
+}
+.menu-lateral a{
+    color: dimgrey;
+    text-decoration: none;  
+    margin: auto;
+    text-align: center;
+}
+
+.pagina figcaption {
+    padding-bottom:100px;
+    box-sizing: border-box;
+}
+
 
 .pagina {
     margin: 1e;
@@ -24,22 +72,36 @@
     padding-top: 7em;
     float: left;
 }
-
-.menu-fixo {
-    background-color:beige;
-    width: 10%;
-    height: 100%;
-    float: left;
-    margin-top: 6em;
-    padding: 2.5em;
+.pagina h1{
+    font-size: 3vw;
+    font-family: "Opens Sans";
+    margin: 2vw;
+    position: relative;
+    right: 5vw;
+    bottom: 2vw;
+    -mos-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    z-index: 1;
+    clear: both;
+    
+}
+.pagina li{
+    display: inline-block;
+    width: 20vw;
+    height: 30vh;
+    box-shadow: 0px 0px 1vw 1px #;
+    margin-left: 10px;
+}
+.pagina li:hover{
+    box-shadow: 0px 0px 1vw 1px #594F4F;   
+}
+.pagina img{
+    margin: 0 3.1vh ;
+    padding: 1vh;
+    width: 15vw;
+    height: 25vh;
 }
 
-#submit-topo {
-    border-radius: 10% 50%/50% 10%
-}
 
-.iniciar-sesao {
-    float: right;
-    padding: 1em;
-    margin-right: 10em;
-}
+
